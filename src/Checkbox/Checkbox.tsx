@@ -9,7 +9,7 @@ interface CheckboxProps {
 
 const Checkbox: React.FunctionComponent<CheckboxProps> = ({
   label,
-  onChangeHandler
+  onChangeHandler,
 }) => (
   <div className="checkbox-container">
     <input
@@ -27,7 +27,7 @@ const Checkbox: React.FunctionComponent<CheckboxProps> = ({
 
 Checkbox.defaultProps = {
   onChangeHandler: noop,
-  label: ''
+  label: '',
 };
 
 export { Checkbox as default, Checkbox };

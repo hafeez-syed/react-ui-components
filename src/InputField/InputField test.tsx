@@ -15,7 +15,7 @@ describe('<InputField />', () => {
     expect(wrapper).not.toBe(undefined);
     expect(wrapper.props()).toEqual({
       placeholder: 'Some text here',
-      label: ''
+      label: '',
     });
   });
 

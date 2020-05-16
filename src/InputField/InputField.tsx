@@ -7,7 +7,7 @@ interface InputFieldProps {
 
 const InputField: React.FunctionComponent<InputFieldProps> = ({
   label,
-  placeholder
+  placeholder,
 }) => (
   <div className="hero">
     <label htmlFor="text-field" className="label" data-label={label}>
@@ -25,7 +25,7 @@ const InputField: React.FunctionComponent<InputFieldProps> = ({
 
 InputField.defaultProps = {
   placeholder: 'Some text here',
-  label: ''
+  label: '',
 };
 
 export { InputField as default, InputField };

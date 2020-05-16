@@ -13,7 +13,7 @@ describe('<InputField />', () => {
     const props = {
       label: 'A label for checkbox',
       onChangeHandler: jest.fn(),
-      onKeyHandler: jest.fn()
+      onKeyHandler: jest.fn(),
     };
     makeWrapper(props);
 
@@ -26,7 +26,7 @@ describe('<InputField />', () => {
     const props = {
       label: 'A label for checkbox',
       onChangeHandler: jest.fn(),
-      onKeyHandler: jest.fn()
+      onKeyHandler: jest.fn(),
     };
     makeWrapper(props);
 
@@ -43,7 +43,7 @@ describe('<InputField />', () => {
       checked: false,
       label: 'A new label',
       onChangeHandler: jest.fn(),
-      onKeyHandler: jest.fn()
+      onKeyHandler: jest.fn(),
     };
     wrapper = shallow(<Checkbox {...props} />);
 
