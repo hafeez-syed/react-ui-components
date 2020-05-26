@@ -99,7 +99,7 @@
     "react-axe": "^3.4.1",
     "react-hot-loader": "^4.12.21",
     "react-test-renderer": "^16.13.1",
-    "source-map-loader": "^0.2.4",
+    "source-map-loader": "^1.0.0",
     "start-server-and-test": "^1.11.0",
     "ts-jest": "^26.0.0",
     "tsconfig-paths": "^3.9.0",
